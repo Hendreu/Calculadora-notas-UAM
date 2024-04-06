@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Média</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Calculadora de Média</h1>
+  <label for="notaA1">Nota A1 (0 a 100):</label><br>
+  <input type="number" id="notaA1" min="0" max="100"><br>
+  <label for="notaA2">Nota A2 (0 a 100):</label><br>
+  <input type="number" id="notaA2" min="0" max="100"><br>
+  <label for="notaA3">Nota A3 (0 a 100):</label><br>
+  <input type="number" id="notaA3" min="0" max="100"><br>
+  <button id="calcular">Calcular Média</button><br>
+  <div id="resultado"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
